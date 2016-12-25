@@ -1,0 +1,70 @@
+
+I'm writing this in advance of going to Recurse Center (ex-Hacker School) for the second time. 
+
+Here's my application:
+
+What are your other options besides coming back to the Recurse Center? Why do you want to come back and how does it compare to your alternatives?
+
+I see my other options as 1. get a job at a large architectural design team on a computational design team, 2. get a job at a small, cutting-edge digital architecture firm, 3. get a job at a technology firm in some way related to architecture / urban design, or 4. spend some time traveling and then loop back to 1-3.
+
+I want to come back to Recurse Center to 1. re-engage with the community, 2. to improve my professional desirability / status, 3. better understand and strategically approach the professional architecture / technology landscape , and 4. produce and disseminate open source technological information (text and code) that is of general use to the architecture and building community, and thereby help create a better, more sustainable world.
+
+What did you accomplish at the Recurse Center? Be specific. Did you accomplish more or less than you hoped? Why?
+
+I accomplished both more and less than I hoped. I realized that I was a very good programmer, and that I didn't need to be intimidated because I don't have a degree in the field. I worked on several great projects that I remain proud of today.
+
+A generic game-playing framework with Alexander Beaulne early on, that excited other students and allowed them to focus on writing AI rather than implementing game mechanics.
+
+A scheme interpreter in javascript (de rigueur), and the associated technical research.
+
+A powerful, generic, highly optimized cellular automata simulator in javascript (I'm proudest of this one).
+
+I helped save a Clojurescript Pacman game that Clint Newsom spent most of the batch struggling with, learning Clojurescript in the process.
+
+On the other hand, I didn't put the finishing touches on any of these projects, or publicize them enough, and so they ended up as great efforts that didn't quite take off. I admired Jay Weisskopf's focused approach to writing a 3d graphics engine and the depth of thought and effort that required. I admired Eric Romano's Gitfiti, a simple hack that generated massive attention.
+
+I would come in with a clearer conception of what I wanted to do and make sure that everything I did fit into that framework, working towards a cohesive goal. I'd finish what I started and make sure people know about and understand my work. I'm proud of what I did at Hacker School but I think I can do a lot more with a second stay.
+
+What would your goals be for your next batch at the Recurse Center? How would you reach them? What would you want to accomplish?
+
+My goals would be 1. produce a set of tools, documents, and relationships about open source technology in architecture, to make this subject more discoverable and advance that field, 2. harness the resources at recurse center to better understand and develop my professional prospects, to position myself as a highly desirable and skilled architect/programmer and figure out where exactly in that spectrum I want to work, and 3. to think seriously and have conversations about the deep connections between programming and architecture and how those fields can inform each other.
+
+My time would be split between 1. writing and organizing ideas and information and 2. writing code and developing the corpus of open source architectural technology. While architecture is rapidly being transformed by digital technology, ideas of open source are only given lip service, and tools and communities are difficult to discover. Nobody uses github, "scripts" are passed around from person to person; there is a serious lack of deep understanding of computational issues in general in the field. 
+There is also an abundant (unlimited) amount of work that could be done writing code, whether that be publishing computational geometry algorithms (currently being patented by big firms), or developing code for Grasshopper and Dynamo (visual computing plugins) that split off functionality and knowledge from proprietary 3d modeling programs.
+
+(minor ideas: Logo programming, Gerald Sussman's SICMechanics)
+
+Are there things you would want to do differently if you came back for another batch?
+
+I would do presentations more frequently, and in general publicize myself more and be less afraid of interacting with people. I would pair program more, I found this fun and extremely productive. I would focus more deliberately on a single project or unified set of goals rather than an unrelated series of projects. I would devote much less time to unstructured "learning" and focus on producing tangible things - text, code, images. I would not wear orange the day we took photographs, I hate that picture. I would put more effort into making and maintaining friendships and being an active member of the community. I'd spend more time physically in the space.
+
+If you came back to the Recurse Center, what would you change about it? Please focus on changes that you are able to make yourself.
+
+I personally am interested in examining how the physical space is used architecturally, and would encourage experimentation and documentation of unstructured use of space by programmers. I would encourage further interdisciplinary connections between Recurse Center and related fields, mostly architecture obviously.
+
+I had plenty of ideas about how to Hacker School could improve, many of which you guys have since implemented; I strongly suspect I'd have more and would pester organizers more aggressively about them.
+
+I'm finding this question a little difficult to answer because I'm not sure what Recurse Center is like these days; I've been gone for a while.
+
+What have you accomplished since your batch?
+
+Primarily, I attended graduate school in architecture at Pratt and graduated with a Masters of Architecture. That involved cultivating a lot of skills that are not as valued in the technology community: design, aesthetics, communication, persuasion, and various other "soft" disciplines of human interaction. In the second half of my Masters I paid particular attention to exploring the role of programming in architecture.
+
+I've made some substantial personal changes in the past 6 months to address a long-running personal dissatisfaction with my accomplishments - feeling like I wasn't doing enough. I started meditating consistently, I recognized that I've had low-level depression and took action to address that, I quit drinking, I started keeping a daily journal and setting plans and goals. I've taken a step back and taken a more deliberate approach to my life. I've started being more open and honest about my problems and vulnerabilities.
+
+I've dedicated myself to the well-being of all living creatures, humans in particular, and doubled down on that since our country set its course towards intolerance in mid-November.
+
+I'm deeply concerned with issues of sustainability and economic re-organization, and am excited about actively engaging with that as technology destabilizes the building industry, the single most important contributor to most any problem / opportunity regarding sustainability.
+
+Is there anything else you think we should know that would help us make a decision? Share whatever you see fit.
+
+I'm applying for six weeks. I can imagine extending that to 12 if my work seems very productive, but shorter is probably better.
+
+My application is particularly heavy on non-technical aspects - writing, communicating, publicizing. I would love to spend time working on my technical skills, but I don't think it's the most pressing need for me or for the architecture field right now. I'm happy to calibrate this more towards technical work - implementing geometric algorithms, writing plugins, developing websites and tools - if my application seems too "soft."
+
+Major focuses of mine are 1. doing good for the world, which I hope to accomplish by working towards sustainability as computation disrupts the building industry, and 2. doing good for myself, by making myself an authority in this burgeoning field, and 3. doing good for recurse center, by pushing the boundaries of what it has imagined itself to be.
+
+Architecture and programming are surprisingly similar fields, in the sense that they both are about the manipulation of symbols, about describing abstract systems that require other tools to become real. That they're about communication far more than anyone realizes. That they're simultaneously arts and sciences. I've long admired Recurse Center for its commitment to education, to humane values inside a sometimes brutal industry, its openness to new ideas; it seems like an ideal place to explore these issues and to try to imagine a better world.
+
+
+
