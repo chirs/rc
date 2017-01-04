@@ -1,0 +1,63 @@
+The Open Source Architecture article is, unsurprisingly, unreadable and unclear. I'm going to take the Open Source Software article and do what I can to turn it into an article about Open Source Architecture
+
+
+https://en.wikipedia.org/wiki/Open-source_software
+
+Open-source software (OSS) is computer software with its source code made available with a license in which the copyright holder provides the rights to study, change, and distribute the software to anyone and for any purpose.[1] Open-source software may be developed in a collaborative public manner. According to scientists who studied it, open-source software is a prominent example of open collaboration.[2]
+
+The open-source software development, or collaborative development from multiple independent sources, generates an increasingly more diverse scope of design perspective than any one company is capable of developing and sustaining long term. A 2008 report by the Standish Group states that adoption of open-source software models has resulted in savings of about $60 billion per year to consumers.[3][4]
+
+---
+
+Open-source architecture (OSArc) is architectural design produced with its source code made available with a license in which the copyright holder provides the rights to study, change, and distribute the design materials to anyone and for any purpose.[1] Open-source architecture may be developed in a collaborative public manner.
+
+The open-source software development, or collaborative development from multiple independent sources, generates an increasingly more diverse scope of design perspective than any one agent is capable of.
+
+### History
+
+This has to be entirely written. Start from Open Source Architecture book.
+
+
+### Definitions
+
+The Open Source Initiative's (OSI) definition is recognized by governments internationally[19] as the standard or de facto definition. In addition, many of the world's largest open source software projects and contributors, including Debian, Drupal Association, FreeBSD Foundation, Linux Foundation, Mozilla Foundation, Wikimedia Foundation, Wordpress Foundation have committed[20] to upholding the OSI's mission and Open Source Definition through the OSI Affiliate Agreement.[21]
+
+OSI uses The Open Source Definition to determine whether it considers a software license open source. The definition was based on the Debian Free Software Guidelines, written and adapted primarily by Perens.[22][23][24] Perens did not base his writing on the "four freedoms" from the Free Software Foundation (FSF), which were only widely available later.[25]
+
+Under Perens' definition, open source describes a broad general type of software license that makes source code available to the general public with relaxed or non-existent restrictions on the use and modification of the code. It is an explicit "feature" of open source that it puts very few restrictions on the use or distribution by any organization or user, in order to enable the rapid evolution of the software.[26]
+
+Despite initially accepting it,[27] Richard Stallman of the FSF now flatly opposes the term "Open Source" being applied to what they refer to as "free software". Although he agrees that the two terms describe "almost the same category of software", Stallman considers equating the terms incorrect and misleading.[28] Critics also oppose the professed pragmatism of the Open Source Initiative, as they fear that the free software ideals of freedom and community are threatened by compromising on the FSF's idealistic standards for software freedom.[29] The FSF considers free software to be a subset of open source software, and Richard Stallman explained that DRM software, for example, can be developed as open source, despite that it does not give its users freedom (it restricts them), and thus doesn't qualify as free software.[30]
+
+
+### Open-source software development
+
+#### Development model
+
+#### Advantages and disadvantages
+
+#### Development tools
+
+#### Organizations
+
+
+### Current applications and adoption
+
+Open source software projects are built and maintained by a network of volunteer programmers and are widely used in free as well as commercial products.[34] Prime examples of open-source products are the Apache HTTP Server, the e-commerce platform osCommerce, internet browsers Mozilla Firefox and Chromium (the project where the vast majority of development of the freeware Google Chrome is done) and the full office suite LibreOffice. One of the most successful open-source products is the GNU/Linux operating system, an open-source Unix-like operating system, and its derivative Android, an operating system for mobile devices.[90][91] In some industries, open source software is the norm.[92]
+
+
+### See also
+
+* Free software
+* Free software community
+* Free software movement
+* List of open source software packages
+* Open-content
+* Open source advocacy
+* Open source hardware
+* Open Source Initiative
+* Open Source Software Institute
+* Open source software security
+* Open source video games
+* Shared source
+* Timeline of open source software
+* User-generated content
