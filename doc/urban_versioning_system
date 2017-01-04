@@ -1,0 +1,436 @@
+http://uvs.propositions.org.uk/uvslongver.html
+        
+Urban Versioning System 1.0
+
+By Matthew Fuller and Usman Haque
+
+
+Table of Contents
+
+
+Preamble
+
+Seven Constraints
+
+Discussion of the Seven Constraints
+
+1. Build rather than design
+
+2. Materials must come pre-broken
+
+3. Make joints
+
+4. Rubbish is the root of virtuosity
+
+5. Collaborate with collaborators
+
+6. Copying or not copying is irrelevant
+
+7. Property must be invented
+
+Legible Notice Requirement
+
+_____________________________________________________
+
+
+
+Preamble
+
+
+Take the separate domains of Free Software licenses and of spatial construction. Consider each of them as a series of types of entity, composition and relations . What series might be invented to run across the two of them? This document is a quasi-license. If its constraints are followed in the production of spatial structures, whether buildings or more fleeting constructions, you, and others, will be able to make something new, or reversion something already there and you will be able to express clearly how others can participate or make use of the work you are creating.
+
+
+The production of structures to articulate, produce and protect space, often coded under the disciplinary term 'architecture' is arguably one of humanity's oldest activities. Countless technologies and legal frameworks have grown along with this process. Formerly one of the most collaborative endeavours, architecture now often functions in opposition to such collaboration. On the one hand it reinforces, and is reinforced by, whatever accretes as the currently dominant political system and some contend that this relationship makes it ineligible as a means for authentically confronting structures of power.i On the other, making buildings is a substantially collaborative effort, always involving teams and multiple kinds of expertise and decision making. All that may be required to free up construction is to render its repertoire of collaboration more expansive. Recent social, cultural and technological developments, particularly in the fields of software and electronics, suggest strategies for productive mechanisms that exist substantially within a given political frameworkyet still are able to provide clear indication of political alternatives. These alternatives in software, Free, Libre and Open Source Software (FLOSS) are highly pragmatic, do the work required of them but also reinvent forms of production in a way that set up real possibilities for freedom.
+
+
+Why is this relevant to the making of urban spaces? For the first time in the history of humanity more of us live within cities than outside them.ii It is vital to begin to think through how we can become more consciously involved in their design, production and inhabitation. While there is a concern about how much individuals can, with good purpose, affect their environment it is clear that we are all, collectively, and in ways strongly shaped by the kinds of collectives we form, having some sort of ecological impact. Therefore ways of organising frameworks, in formal or less formal ways, for collectively productive activities are becoming increasingly important to attend to. A discussion of the processes through which humans construct cities could appear to support the argument that there is a distinction between "artificial" and "natural". In fact it demonstrates the opposite: just as with any non-human entity we collectively construct our ecological and architectural frameworks and these frameworks tend to overlap with those of others. These overlaos have consequences. The difference is (or should be) that we consciously recognise our interdependence and thus must consciously act upon it.
+
+
+Architecture, which exists at the very moment when space is defined, constructed and experienced through activity, is perhaps the most common shared enterprise of them all. A city is a city if it is lived-in: otherwise it is merely a pile of bricks, cables and concrete. Our interdependence however does not mean that anyone is 'naturally' dependent on the current state of cities or societies. The proportion of the earth's inhabitants 'depending' on systems of neo-liberalism or oligarchy, for instance, are rather pitiful compared to the amount of natural and human resources they require to maintain their unabashedly vampiric positions. Such a situation deserves some regeneration.
+
+
+In order to develop thinking about such interdependence and collaboration we might as well start from where it is blocked. The architectural profession remains relatively steadfast in a distinction that divides designers from users, even though technology increasingly provides grounds for diminishing that distinction, either through networks (electronic, social, geographical) that provide people with better access to cross-collaborative tools and multi-disciplinary inputs or through responsive building technologies that can place people themselves at the helm of the configuration/design of their own spaces.
+
+
+In the eighties and nineties, computers’ impact on the architectural discipline was in the form of design aids. In the coming decades computers will increasingly be a part of the architecture itself, enabling user-centered interaction systems for configuring environmental conditions. We have already seen systems like those that track movements of the sun to control louvres outside a building, or movements of people to adapt light levels inside a building. We have seen “intelligent” devices that monitor temperature to provide us with optimum levels or even walls that change colour as necessary to complement interior designs. However, innovation in the design and construction of the built environment of the future, appears to be split problematically between large developers (who have their own particular efficiencies of scale to optimise) on one hand, and ubiquitous computing technologists (who are developing the systems that mediate the ways that we relate to our spaces and to each other) on the other, with architects finding themselves somewhat irrelevant. People-centered architectural interfaces and responsive building systems are being developed, not by architects but by computer scientists designers and artists working independently or through numerous institutions, with all the historical and commercial associations that these institutions are party to. .
+
+
+This document proposes that another lesson can be learned for architecture from computing: the way in which software is made. Here, we want to concentrate on the current most significant mode of software development, Free, Libre and Open Source Software (FLOSS), steering clear of ubicomp fantasies that may often obfuscate technological power structures.
+
+
+
+FLOSS and Things
+
+
+Free, Libre or Open Source Software has attracted an enormous amount of attention of different kinds, so its basic principles have become reasonably well known. However, it seems worth briefly restating them. The Free Software Definitioniii states that free software contains the following freedoms:
+
+
+* The freedom to run the program, for any purpose (freedom 0).
+
+* The freedom to study how the program works, and adapt it to your needs (freedom 1). Access to the source code is a precondition for this.
+
+* The freedom to redistribute copies so you can help your neighbor (freedom 2).
+
+* The freedom to improve the program, and release your improvements to the public, so that the whole community benefits (freedom 3). Access to the source code is a precondition for this.
+
+
+A number of attempts have been made to transfer such principles to the making of objects. Often these have been on the basis of plans, recipes, diagrams and other such 'genotypical' information. Examples would be the Free Beer project initiated by Superflexiv in which a beer recipe is shared; the self-descriptive Open Colav; or Ice Cream for Everyonevi which launched the field by doing the same for tasty dairy-based desserts. These projects all use recipes as their prime form of 'source'.
+
+
+In Open Hardware, electronics schematics are shared. A significant and growing numbers of projects work on these principles. Examples include the GP2X handheld games platformvii; Arduinoviii, a hardware/software platform that simplifies electronics prototyping. More generally, standards consortiums (such as the Deutsches Institut für Normung, the International Standards Organisation or more ostensibly ad hoc groupings such as the World Wide Web Consortium) work not with open standards, but standards in the public domain, set, not unproblematically, by anyone with the time, expertise and resources to participate. Historically, when structures for sharing inventions and ideas have been proposed, sharing and mutually improving instructions is usually the mode in which it is done. In 1652 Gerard Winstanley, one of the 'Diggers' of 1649, proposed (as part of his vision for the development of a post-revolutionary England gone sour) that each district of the country would have two Postmasters charged amongst other things with ensuring the even spread of all knowledge "whereby the commonwealth may more flourish in peace and plenty".ix
+
+
+The key question here is how such strategies apply or can be modified to apply to the production of architecture. In architecture there is no substance that is concurrently both "editable source code" (genotype) and "usable artefact" (phenotype). Though some have usefully argued that architectural drawings can be considered "source" and therefore it is the design process that must be opened up,x one of the most interesting aspects of open source software is the continuous interleaving of production, implementation, usage and repurposing processes, all of which can andsometimes mustbe open -- not just an "open design" that then gets implemented in a closed manner. Most important is to develop a method through which architecture, the physical conduit for knowledge and memory, can itself be "open". Therefore, the UVS quasi-license does not base itself on the genotype / phenotype split, though the distinction can be made: we want to see what happens if we work otherwise.
+
+
+This has specific impact on the role of the architect. It suggests a new focus on enabling, generating and engaging, adopting a role similar to the one an operating system designer performs in the world of software. This does not necessarily confer equal responsibility to all participants in a system but instead presumes that while hierarchies formed by experience, skill and aptitude are inevitable, they are not immutable. Equally, such an approach changes the site of the aesthetics in architecture to one not of form, but of organisation.
+
+
+The aesthetics of organisation have yet to be decisively described, but pointers towards it are already present in current art discussions in collaboration and participation.xi Indeed, since much architecture is merely an epiphenomenon of the political, monetary and material requirements of certain dominant fractions of society, perhaps all such an open aesthetics of organisation would tend to do is to render such processes 'democratic'. Nevertheless, what is partially pointed towards in architectural interaction systems, which can deal with the practical and functional aspects of environmental configuration, is that the beauty in urban design might come from the participative structures of those who create and implement it.
+
+
+We propose putting together a license for the open source design and construction of cities. The Urban Versioning System quasi-license is not yet such a license. At the moment the document is more a dogma or set of constraints. It’s an oath, a quasi-license, something to chew on. You can build using these constraints.
+
+
+
+Consideration of Design Goals
+
+
+A pragmatic first step would be to develop infrastructures that enable supposed non-designers to participate more closely in the design and construction process. In some senses, this is already occurring, as the self-build trend shows . (The European phenomenon running over several decades is characterised by projects which facilitate groups of occupiers building their own housing.) However, much more can be done to facilitate the transition. Architects in particular have the opportunity at this stage to participate in the conversations that take place with regard to enabling and encouraging good building design and collaborative practice. “Design-by-committee” is not an adequate solution to this: such an approach is always limited by approval of the lowest common denominator – the fact that everyone must agree on all parts of a design process, or, more realistically, on the way such legitimising processes are spun and manipulated by various interests. More important is to concentrate on widening peoples' sphere of responsibility, and hence motivation, commitment and agency with regard to the design and inhabitation of the urban environment.
+
+
+A second approach, conceptually the most complex, would be the formulation of frameworks for spatial design . This might involve on one hand the development of spatial "operating systems", which, as in computer terminology, would be infrastructure that provides a framework uniting hardware and software in which programmes can run, and in which people can configure and reconfigure their own environments. It might also involve the development of a "concurrent versioning system" (CVS) for architecture, paralleling that found in the software industry where a CVS is a means by which software developers collaborate.xii A CVS enables code to be archived and held in a structure of changing parts for the purposes of use and of further work. Pieces of code and accompanying comments are held in a 'tree' of updated versions. As more coders work on a project these pieces of code may also go through a checking and committing process. This allows a project to be both conservative of its quality, in a state of rapid development when necessary, and able to modularise to incorporate many participants, not unlike the way cities can grow and adapt.
+
+
+It might be argued that cities are already developed analogously to the ways that a CVS aids in the construction of software. This may be so, unconsciously, however buildings, streets and neighbourhoods are still regarded as static, immutable end-products rather than dynamic states within a progression. In an architectural context a CVS would need to achieve two goals. First it would enable the processes of development, testing and inhabitation to occur concurrently. Second it would provide an infrastructure for different granularities of participation for each designer/participant. The fact that it enables anyone to be a co-designer, does not necessarily mean that everyone will undertake to participate in the design process, just as saying that everyone can be an artist does not mean that everyone wishes to participate in artistic practice (or indeed that everything is art). However, it does recognise that those who do wish to operate in such a mode of knowing, seeing and doing may have very different skill-sets, intentions and requirements.
+
+
+A system that encourages people themselves to create their own spaces and collaboratively build a social space – such a system could be more efficient, more imaginative and more conceptually "open". Yet even this is not sufficient: there is no point in having an "open" design process that results in a structurally "closed" entity. Architecture that is produced through an authentically open process is never finished: there is no distinction between design and inhabitation.
+
+
+The Urban Versioning System quasi-license proposes the following seven initial constraints.
+
+
+
+Seven Constraints
+
+
+1. Build rather than design
+
+
+We propose here a new model for the production of cities, where design and planning are abandoned in favour of beginning immediately with building and construction. This new adhocismxiii requires us to disregard any temptation to sketch, to plan, to model and above all to discard any desire to "brainstorm". All these activities can be performed on the actual materials we wish to build with, while the thought-processes directly engage with or become the lived-in artefact, articulated at a 1:1 scale. Sketching, pre-planning and feasibility analysis are activities that function under the assumption that there is a distinct immutable "design" phase while planning, as an activity, makes it tempting to be prescriptive, and for a certain category of participants to proscribe the activities of others.
+
+
+Constructing right from the start erodes distinctions between design, construction, modeling and inhabitation. To design and build concurrently requires simultaneous tenancy. The building is the model. It enables us to produce real spatial situations we otherwise only imagine, and makes it possible for other people to enter into and critique what we would have exist in their world. We can discuss with materials not representations of materials, and negotiate around connection points and the means of connection, rather than proffering a completed structure as a whole. It is difficult to make things collaboratively without discussion. This doesn't mean that discussion must only occur before making.
+
+
+The problem is that regarding the process of design as distinct from that of construction has consequences in various areas of city-making.
+
+
+The first consequence is a basic assumption that building only begins once the design process is complete. In the area of urban planning, however, the notion of "completeness" is irrelevant even though, in a contemporary city, seemingly immutable planning and zoning regulations can become the most important factor in determining how the city articulates itself. Its regulations are used as a generating algorithm for the design of individual neighbourhoods and buildings, through polynomial calculations that balance opposing tensions in the regulations. Planning is one of the most sophisticated tools of political power, determining how city occupants fill in the gaps through proscribed and prescribed activity. Though beyond the scope of this document, it must be understood how urban planning, at times via aesthetic restriction, at others through alliances with certain kinds of power, intricately or bluntly determines the way a city functions.
+
+
+The second consequence of distinguishing activities of design from construction, at the level of both neighbourhood and individual building development, is that it places an emphasis on forms of representation as distinguished from the designed artefact. In order to design something that does not yet exist, if we are not to build it at the same time, requires us to imagine it and represent it, for example on paper, through plans, in maquette form, through software simulated fly-through. Design as representation (rather than production) requires suspension of disbelief. Such speculation, while useful in expanding the boundaries of imagination, can become recursive and self-limiting: real-world constraints are seen as unhelpful obstacles rather than welcome foundations.
+
+
+In some architecture schools, students are taught to design drawings rather than design buildings and there appears to be a presumption that construction details can be learnt later on the job. Working on representations always distances a designer from the thing-to-be-constructed and encourages a tendency to be prescriptive and restrictive, particularly in the design of buildings where the design process will have both microscopic and macroscopic consequences on the ways that people will eventually conduct their lives within the building. Urban planning is often a process of two-dimensional geometrical adjustment of forms portrayed in plan, while god's-eye-view initiatives tend to ignore the third-dimension. xiv In CAD packages, the design of three-dimensional space is relegated to the composition of coloured lines on a black background. It is often possible to determine, admittedly more so in a building than in a neighbourhood, whether it was designed using AutoCad, Microstation or Vectorworks- such is the power of representational drawing systems to influence finished product.
+
+
+Representing prior to building is a means for multiple parties to discuss what needs doing, for users or clients, construction workers and architects to have a conversation about the same object. At the same time, such plans tend to predetermine all possible degrees of freedom. Such pre-specification leaves little room for on-site manoeuvre and, by the time a building or neighbourhood is occupied, all variables of inhabitation have been determined for the inhabitants (apart from occasional material or fixture selection which is proffered as the only conceptual input for future occupants).
+
+
+A third consequence of separating design from building, within the profession of architecture, is to emphasise the importance of design, as if construction were merely an afterthought. Design becomes the respectable profession. In 1749 Lord Chesterfield, best known for writing letters, instructed his son to leave the details of construction to, "masons, bricklayers and Lord Burlington" (who helped revive Palladian architecture) "who has, to a certain degree, lessened himself by knowing them too well". For anyone interested in the relationship of architecture to power, the sentence that follows this one, often omitted in quotation, is noteworthy: "Observe the same method as to military architecture; understand the terms, know the general rules, and then see them in execution with some skillful person".xv
+
+
+An architect feels confident that, if a design has been well-thought out, and well-executed (by others, upon whom the responsibility lies when design and construction are separated), then all problems can be avoided and the job has been adequately performed. This is rarely the case, of course, because situations almost always arise during the construction process that demand immediate attention and rectification. However, when a contractor makes a decision without consulting the architect, it is seen as an affront at least and more likely a professional liability. The problem is that architectural design can often simply be a process of predicting problems, removing obstacles and resolving all possible contradictions: the best situation, from the perspective of such an architect, is to have project documentation that is so complete that every aspect of the construction process has been articulated and specified so that the eventual building construction contractor needs make no on-site decisions and simply has to follow orders to the letter.
+
+
+There are two pragmatic resolutions to this dilemma which can be further explored. The first was raised by cybernetician Gordon Pask (particularly in association with Joan Littlewood and Cedric Price's "Fun Palace" structure.) Here, they emphasised the quality of underspecification.xvi The notion of architecture as a system with underspecified goals suggests an architecture that evolves (and which is, therefore, never "complete"). Apart from making it clear that design and production are simultaneous activities, this conception also helps erase any pre-existing distinction between a building and its environment: it presupposes that a building creates an environment (which includes both our conventional understanding of ecological "environment" as well as all the constituent players such as its occupants), and carries on creating an environment as it attempts to specify itself. In truly underspecified buildings, architecture can't help but be ecological, not necessarily for the better, in the sense that all crucial input and output sources inherently become part of the architectural system.
+
+
+A second resolution may be found in construction industry data management standards such as BIM (Building Information Modelling), which describes the geometric, geographic and spatial relationships of a building's components. Though relevant to the entire life cycle of a building, BIM is nowadays predominantly used during the construction phase for sharing knowledge among contractors regarding material properties and quantities in use on site. Integrated into CAD packages, BIM can become a powerful tool to unite the processes of design and construction because components and materials can be specified to refer to actual entities currently on a production line, in transit or already on-site.
+
+
+"Industry Foundation Classes" (IFC),xvii a building data model developed by the International Alliance for Interoperability (IAI) is another system of particular interest, being professedly open and vendor-neutral. If IFC were extended in the post-occupancy phase to convey dynamic data such as sensor/actuator states as well as mutable spatial relationships, this makes it clear that buildings are dynamic, responsive and variable and would encourage the development of robust technological frameworks that unite design, construction and occupancy.xviii
+
+
+
+2. Materials must come pre-broken
+
+
+A seamless package is frustratingly daunting when it comes to enabling others to participate in the design and development of an artefact. Apple’s portable media player is so difficult to open up that end-users cannot even easily replace its battery. Though this hasn’t prevented people hacking the device, it has significantly raised the bar with respect to the skill level of those who can do so. Meanwhile, even in the development of open source software there is often a tendency to delay making source code available until bugs have been smoothed out or the code is well-commented (itself an arduous task). However, a broken system is usually one that attracts the most attention, in part because it appeals to others' desire to "repair" and also because breaks can enable one to understand better how something should or could work.
+
+
+With respect to opening up the urban design/construction process, and encouraging the reuse and repurposing of architectural artefacts, it is important to ensure that such structures and systems are released in a pre-broken condition. This might take one of several forms.
+
+
+Materials that readily decompose can be said to be ecologically pre-broken. Those which rapidly decompose to a basic elemental or organic state, such as ice, iron, wood and silica rather than complex materials involving a high amount of adulteration are particularly interesting. Building with such materials requires constant innovation, replenishment and reconstruction. Ecological considerations aside, they emphasise the ephemerality of architectural constructs and help counteract the usual architectural obsession with permanence.
+
+
+Related to this, conscious attention to the Hertzianxix structures of our neighbourhoods will become increasingly important. This is a result of both the possible physiological effects these may have and the fact that the electromagnetic territory created and inhabited by our devices, gadgets and buildings increasingly tends to determine both our personal and spatial relationships. How we confront, construct or hinder such spatial phenomena will be affected by our ability either to break such systems or to enter into previously-broken systems.
+
+
+Both arbitrary and non-arbitrary constraints can be useful but the truism about rules being made to be broken is an obvious component of this discussion. Regulations, zoning laws, strictures and even the quasi-license outlined here would do well to refer to the structural organisation of nomic games, in which rules of the game include mechanisms for the players to change those rules. Peter Suber, original creator of the gaming system Nomic, describes in “The Paradox of Self-Amendment”xx how “self-amendment may be accepted as valid despite the contradiction inherent in it, which may be conceded to exist... This is possible because acceptance is not bound by any formal logic. If the people and officials in the appropriately complex sense accept self-amendment, despite its contradiction, then their acceptance validates it”. Elsewhere, Suber says that one of the starting rules of his game is “deliberately boring so that players will quickly amend it to please themselves”.xxi An architecture that is boring, or that becomes bored, is desperate for inhabitation and deployment.
+
+
+Constructions made under the UVS quasi-license are in an important sense always unfinished, always leaving work to be done or thoughts about change to be had. Such constructions occur in physical space, but it is likely that they are also happening in informational spaces and so setting up the means for their interrogability in such terms is a crucial dimension of building. If it's any good, somebody will always find a way to break into a closed system (either in defiance or as necessity) so incipient creators might as well provide it in a pre-broken condition.
+
+
+Materials that are readily repairable, interrogable or hackable can be said to be pre-broken in terms of their use. Broken structures are not meant to last. They invite, sometimes oblige, on-going participation and contribution. An artefact that is slightly broken holds less danger of being destroyed beyond redemption during opening than one without obvious entry mechanisms.
+
+
+Broken artefacts encourage reuse and repurposing. While non-specialists may feel mystified by technological seamlessness, allowing them to crack something open helps provide a heightened sense of individual responsibility and technical audacity. It enables people to participate at a number of levels, depending on skills, desire and ambition. This relates to the granularity of participation discussed below and facilitates the reprocessing of existing artefacts as building blocks that transition between simple and complex states. Failing this, power tools, hairpins and nail files prove useful in opening things up.
+
+
+
+
+3. Make joints
+
+
+Michael Sorkin's text, Local Code-the constitution of a city at 42o N Latitude, sets out an imaginary of city building or planning.xxii He specifies what the built pieces (above a certain scalar threshold) of his city are, and how they might fit together. His story is a science fiction that allows planning to dream - through the medium of a building code, a set of constraints that becomes a generative matrix. This generative capacity of rule-sets is in part what is attractive about a license. It allows the possibility of imagining means of connection between things. Such connections in terms of actual constructions are called joints. We understand joints not only to be the things that hold things together, but also as the means by which an object connects to its outside and allows it to dream. We are interested in joints which function as forcing points of abstraction.
+
+
+Related to Sorkin's set of requirements, artist Paul Perry and architect Maurice Nio set up the project Amsterdam 2.0, a political rather than spatial constitution which allows 400 cities to inhabit the same territory. xxiii A person joins one or more cities or societies, abides by their rules, or lack of them and takes part in their activities, all the while overlapping with and bypassing the activities, spaces and codes of the other cities. In what is currently the United Kingdom, the Archbishop of Canterbury, the chief primate of the Anglican Church, has recently suggested that Muslims should be able to opt-into a moderate system of Sharia Law as a part of civil law.xxiv Although the archbishop's argument is ultimately for an alliance based on religion as the dominant category of moral ordering, it is pleasing to see that the multiple city spaces the writer P.M. described in the practical utopian text bolo'boloxxv have some adherents. Coming out of the European squatter's movements of the 1980s, bolo'bolo attempts to imagine a process of city-formation and urban life in which cultural and political freedom, predicated upon autonomy, are maximised. In these four cases, descriptions, rules and constraints become joints. They describe the conditions of conjunction and differentiation of elements within a wider composition. Whilst these different rule spaces share the same physical space their overlap is one that can involve mutual indifference or fascination as much as conflict. The articulation of the spaces depends upon the development of adequate joints.
+
+In architectural terms then what we are arguing for is not quite a recapitulation of the non-planxxvi but for a polyvalence of organising principles and processes which make themselves open. In housing, something of the kind has been argued for by the planning researcher and activist John Turnerxxvii and others such as the anarchist architect and writer Colin Ward. xxviii In his powerful recent survey of literature on shanty urbanism Planet of Slums,xxix the urban theorist Mike Davis makes the useful point that arguments for self-organisation are too easily co-opted and reformatted by powerful developers as an argument for the removal of regulation, or for arguments for self-sufficiency as a means of removing housing provision by larger scale organisations (such as the state). A classic example in London would be the case of Canary Wharf where corporate 'terraforming'xxx imposes itself through the ruse of freedom to build. Architecture in general is familiar with the hyperventilation around similarly over-ripe opportunities in China or Dubai. Turner's argument (written in the years before the structural adjustment plans of the International Monetary Fund fed exploding populations into the mega-cities we see today) is built around the scale of the individual person, their immediate social relations and the buildings they inhabit and generate. This provides an important emphasis, a form of counter-power which always returns to see things from such a perspective rather than adopting one that is primarily systemic in understanding.
+
+
+The joint is a point, conceptual as much as material, at which powers are mediated and confronted. In architecture, the joint is the part that conjoins, spreads and transforms tensions. To continue our parallel with computing, interfaces, protocols, interpreters, compilers and screens are kinds of joint. Joints are entry points for supporting, contrasting or even opposing systems. Concentrating on the production of joints presupposes future amalgamation or integration with things, events and systems that are yet to occur.
+
+
+A joint does not become the thing that it joins together. Bernard Tschumi's roof at Le Fresnoy (a structure that materially preserves and spatially unites a number of pre-existing buildings) makes a clutter of housings into a complex, but it does not become them and it does not subsume them.xxxi The clamp used to bring two scaffolding poles together has its own character. A joint anticipates and works with what it expects to connect. The joint makes no final assumptions about the thing-that-lies-beyond-the-joint, it simply sets up a precondition to connect to any other entity that can link to it. This is the power and a measure of the joint's degree of abstraction.
+
+
+The joint may also occur in the things that it joins together. Joinery in wood composes an interlacing of parts, of negative and positive volumes, of slottings and pegs, dovetails and housings. A threshold is not a joint, a joint draws thresholds towards it. As such the joint is the structure’s defence against entropy, against simply becoming a pile. In doing so it allows the structure to conjugate both symmetry and asymmetry. Asymmetry of materials and of forces, and where wanted or found, symmetry of structure.
+
+
+The joint articulates the forces and tensions that the structure brings to bear. Lightweight structures often distribute the function of the joint across all parts of the structure. Recent work by Olaffur Eliasson and Einar Thorsteinn in their lacing and overlacing of ribbons of tensed wood and metal into geometrically intricate inhabitable baskets exemplify this, as do the main parts of Vladimir Shukov's hyperboloid steel towers from the early twentieth century. These woven structures spread their jointness throughout their composition, producing entirely self-sufficient compositions of elements pressing up to and threading through each other whose only joint is with the earth.
+
+
+As Manfredo Tafuri states, “spatial entities, cannot solve problems which are not of their scale.”xxxii What they can do is create new problems that set off resonances in other domains. Because of this, all entities under the UVS quasi-license must have more than one open joint available at any time. Opening but a single joint at any time will simply result in 'chain' structures. Two, three or more, result in a workable range of degrees of freedom.
+
+
+
+4. Rubbish is the root of virtuosity
+
+
+The more granularity an instrument offers the more capable it is of proficient as distinct from perfunctory performance, and from there, the means by which it establishes a trajectory of possibility to infinite levels of brilliance. In this generosity, it also sets up an abundant capacity for incompetent performance. Equally, in releasing any construction to open development, it must be appreciated that design preciousness can result in aggravation and disappointment: the entity that you have nurtured since birth will be manipulated, botched and improved by others in ways that, if you retain sensations of ownership, might be difficult to bear. People will, collaboratively, take a design in directions you could never have imagined, sometimes ways that you think are utterly wrong. In order that the constraints associated with ownership do not tend to impose such heartbreak, objects made under the UVS quasi-license are constrained to preserve a clear pathway that participants in builds can take from beginner/introductory/informal all the way to advanced/sophisticated/virtuoso participation. This pathway is constructed of a granular structure of infinitesimal variation.
+
+
+What this description provides is a way of recognising that people make cities. Our habits, daily routes, and the entire matrix of relations that we compose and leave as traces couple together parts of the city: make them make sense or fall into disuse, wear parts out or give them importance. The places we hide, those in which we come together to learn, carry out transactions, rest, eat and die of boredom, those places which set out imprisonments or in which we hold the gaze of each others' eyes are all, to one degree or other formed by peoples' obedience to or agreement with their composition.
+
+
+We shape buildings, wear them out, erase them and build when this is necessary. Unfortunately, at present, what constitutes a 'necessity' has a rather limited vocabulary with which to work through. The majority of the population is thus limited to a very passive architecture, a form of city living that precludes any but the most trivial involvement in the material constitution of their urban field.
+
+
+In their set of interviews, philosophers Jacques Derrida and Bernard Stiegler discuss how different kinds of media allow, more or less, certain kinds of participation. Their model is the alphabet, suggesting that 'it is hardly conceivable that the addressee of a book could successfully read it without knowing how to write'.xxxiii Stiegler in particular anticipates that the increasing availability of video, audio and other software will create a cultural politics in which people classically formatted as receivers become agents of production. Derrida responds by differentiating between the ability to use something and knowing how it works, a technical form of knowledge which he might be read to imply is superior.
+
+
+Before the thread of their conversation moves away into a more general discussion of media literacy, Stiegler, the director of an institute heavily invested in the development of novel forms of instrumentation and software for music (IRCAM) introduces the figure of the virtuoso. This suggests another way of working with media, where knowledge of its qualities comes through intimate, long term involvement, practice and experimentation rather than formal or analytical knowledge. The Studio for Electro-Instrumental Music (STEIM)in Amsterdam,xxxiv works with a related rule of thumb: a good instrument allows both for an elementary entry-level of use, and for the complexity or very sophisticated highly nuanced involvement won through practice.xxxv
+
+
+In terms of construction, one of the ways of understanding this imperative is by stating another one: modularity is a must. The question of modularity is related to that of Joints. (But the problem of the “modular” is different to the 1960s problem of all units having equivalence and/or looking the same; i.e. it’s modular because you can choose red/blue/green/orange boxes to plug together – actually this is a non-choice: think Legoland. Simple forms do not necessarily lead to a clearer, simplified life).
+
+
+Where architecture needs to learn from FLOSS is in another kind of modularity. Free software projects often have a clear hierarchy of involvement and ways of making a contribution that require different levels of skills, from the relative beginner to the high-level expert. Firefox automates bug reporting. Linux distributions organise bugtrackers, software that maps larger or smaller fixes that need to be made. These might be anything from making a slight amendment to a printer driver or writing user documentation to more substantial changes needing the attention of several minds. Modularity in this sense means arranging the development of a project in a way that allows productive involvement from large to small scales, from brief to long term periods, and that, in terms of expertise, encourages participation ranging from beginner to high-levels of sophistication.xxxvi
+
+
+There is a meaningful granularity of participation that drives the most successful FLOSS projects. Whilst such qualities allow for multiple kinds of productive involvement, what is often missed in accounts of these structures is that in allowing for finely granular participation and incrementally difficult problem-setting, these projects also act as large scale learning environments. This would be quite a good definition for a city.
+
+
+
+5. Collaborate with collaborators
+
+
+One way in which the question of objects and code is often articulated is that code allows for non-rivalrous use. A piece of software can be copied as many times as wanted without any loss of quality and without denying anyone else the ability to make such a copy. This is seen as being a key difference between the world of bits and that of atoms. An endless amount of processor cycles, storage and network access is a pre-condition for this digital abundance. Yet rivalry can find itself played out at many distinct scales.
+
+
+An interesting consequence of the kinds of collaboration developed in FLOSS has been that enemies find themselves working on the same project. Companies who are in at least nominal rivalry with each other may build their businesses around shared code, (examples would be many of the companies formed around FLOSS) or use the sharing and development of such code as a way of developing an alternative platform to proprietary software in order to gain market share (such as SUN and IBM's support of GNU/Linux).
+
+
+More notably, those in conflict in other ways may find themselves working together. Anarchists for instance might find themselves contributing to a code-base also worked on by the United States military. Whilst some programmers see this as a means towards communalising the intolerable wealth and power of the war machine, making the military subsidise a freely available resource, others leave projects in protest. The Free Software Foundation states explicitly that, "You can use GPLed software to implement DRM, guide nuclear missiles, or run your own organized crime syndicate—just as you can use it to administer a court, run an animal shelter, or organize your community."xxxvii Hackers interested in a particular interpretation of Human Rights, including the Cult of the Dead Cow, have launched alternative licenses such as the Hacktivismo Enhanced-Source Software Licensexxxviii which explicitly precludes the use of software produced under this license by those deemed to be human rights abusers. Those apparently falling into this category and thus prohibited from use of the software include "any national of Cuba, Iran, Iraq, Libya, North Korea, Sudan or Syria".xxxix Given the current targets of US political geography and missile systems the aims of both licenses seem remarkably concurrent.
+
+
+Whilst FLOSS is often seen as valuable because of its simple pragmatics, it also has something to teach us about paradox. This sensible way of writing software depends upon a common rational infrastructure (the focus on the production of code) produced through a voluntarist version of "from each according to their ability, to each according to their need". By establishing this framework it, in paradoxical fashion, disregards certain aspects of those entities feeding the codebase. That is to say, that anything other than the code produced, is deemed irrelevant. This is a reason for Free Software's great contribution to democracy and also its means of subsidising, by ignoring, injustice. I Paradox is a way of mobilising disregarded elements in a composition and as such, this paradox rests upon another. It is possible that we misrecognise the name of Free Software, not noticing that it is also about the freedom of software to grow, to multiply and to improve, regardless of where it resources itself from.. This double paradox of free software is thus that software parasites the human.
+
+
+Occasionally, the scalar freedom of software may be in competition with that of others, or conversely, life parasites upon death, communication builds itself upon the resources of the military. Such paradoxes are replayed in terms of construction in the interplay between the static and the changeable, between the learning built into interrogable technologies and the things that are taken for granted in designed ease of use. Builds using the UVS quasi-license will shelter and defend, be nurtured and confounded by the universal provision of this paradox of collaboration.
+
+
+
+6. Copying or not copying is irrelevant
+
+
+One "ideal" of the architect, propounded by Ayn Rand's character Howard Roark,xl is one in which a single individual espouses a goal and inflicts this upon all others. Such architecture is produced in three distinct stages with little interaction between each: first as an archetype of imagination; second as a set of physical representations; third as a built structure that is sprung upon the world in answer to all its problems. Failure in any stage is a failure of the world to allow for perfection.
+
+
+In contrast, the UVS quasi-license recognises that the world is constructed by its inhabitants, at every moment of conception, inception and perception. Any notion of perfection is constantly under flux: it is multivalent and inherently self-contradictory. This paradox insists that, in emphasising the production of public space, it refers to a type of space that rarely fully exists. When we talk about the public domain, we understand that the public is not some pre-existing fact. Publics must be made, indeed publics make themselves, and in so doing publics make domains that they refer to and through which they are mutually constitutive . The spatial technologies of such publics weave fluctuating participation with capacities for organisational coherence.
+
+
+What can we look to in the field of current software culture's creation of space? In Second Life, participants create their environment in ways determined both by Linden Labs, the commercial deity that controls the server software and organisation, and by the environment they are born into, determined by previous participants. They can create objects and environments with form, function and behaviour. They may make these available to others in one of two ways, either by selling or giving them away. In both cases there are two ways in which future use and modification can be restricted: a constructed object has parameters that determine whether, first, it can be copied and, second, whether it can be modified. Similar in some senses to the choosable parameters of a Creative Commons licence, Second Life has hard-coded a framework through which people can inherently share and collaborate while still determining the extent to which others will be able to make use of their artefacts. One does wonder what might happen if Linden Labs applied an open source license to its server software (as distinct to the client, which has already been released as such).
+
+
+Within the architectural context, though less so in expensive urban areas due to prohibitive cost, the trend (at least in europe) for self-build homes is on the rise. xli Architects are seen as supplementary to this process, useful perhaps in advising on legal and structural matters and creating technical drawings but a bit of a hindrance when it comes to design, which, self-builders often feel is something that "anyone can do". This do-it-yourself (DIY) approach has been popularised, even pimped, in the UK recently by television shows such as “Designer for a Day”, “Grand Designs” and “DIY SOS”. These programmes chart the progress of projects undertaken by homeowners or show how design professionals can advise people in upgrading existing homes themselves.
+
+
+There are several reasons why people are now willing to take on the time, energy and stress of self-build projects. With financing easier to acquire than it has been in the past (at least for self-builders), the building process is considerably smoother for would-be homeowners. Meanwhile, self-build projects can be significantly cheaper than developer homes, in part because one isn’t paying the developer’s profit, but also as a result of government initiatives to partially encourage this process.xlii
+
+
+In self-built construction, end-users themselves are at the helm of the design process and are able to produce the home they desire (in terms of style and location) with a personalised layout. This tendency is encouraged by a general perception that hiring an architect is expensive and fears that the architect-client relationship could be frustrating. Consumer-friendly builders merchants like Home Depot, B&Q and Ace Hardware have made it relatively easy for self-builders to hire equipment or purchase materials directly as they require. Consumer-oriented software packages like Home Design by Punch! Software enable non-designers to produce sophisticated architectural drawings and layouts, while packages such as SketchUp enable fast and accurate visualisations. Similarly, the availability of prefabricated building parts enables quicker, easier construction.
+
+
+How architects respond to these conditions will have significant consequences on the way that housing and design in general evolve in the twenty-first century. As people themselves recover prime position in configuring, organising and constructing their own environments, the role of the architect changes dramatically from the professional idealiser and problem-solver to the, possibly non-professional, facilitator of design/construction systems.
+
+
+One possible response from the architectural profession is to decry the seeming trivialisation of the design process that appears to be encouraged by removing trained professionals from the system. This is in part a self-preservation instinct, because it is the very livelihood of architects (i.e. people who are trained in the design of space) that is being threatened. More importantly, argues this response, it is the trivialisation of the notion of design itself: if everyone is a designer, then the designation ceases to have any real meaning. This may well be the case if you are content to believe in absolute beauty or perfection.
+
+
+Another response might be for architects to concentrate their skills on "signature" public buildings, museums, urban planning and other large scale proposals, where it can be argued that a skill in spatial design (as opposed to simply form and material design) becomes crucial. We have already seen that architects become superstars these days for designing art museums, apartment blocks and office towers. It is possible to anticipate that such buildings will become notable not so much for their visual novelty but for their admirable structural solipsism.xliii
+
+
+A third response, most interesting to us, would take a very different tack. Rather than shying away from the conceptual difficulties offered by a system in which "anyone" can be a designer; where "copies" are as flawless as an "original"; where preciousness is not a desirable attribute; architects could embrace these concerns and seek ways to narrow the divide between the “designer” and the “designed-for”. Embrace the culture of the knock-off and of improvement.
+
+
+The architect in this situation is therefore many things, not simply locatable in a single professional. The architectural force can be a style, a system, a compositional dynamic, a generative sequence, and/or someone with a good idea or engagement with the learning of a craft. The architect becomes a diagramming force, paradoxically both rule and rule generator determining the axioms that run through the process. Rather than locked into gatekeeping, this figure lets processes loose, encourages the flow of possibilities and modalities, works in a specific fashion on particular problems with certain sets of knowledge, learns and is often taken by surprise through the process.
+
+
+
+
+7. Property must be invented
+
+
+Once something is digitised it doesn't make sense to claim proprietary ownership of it – it's a copy . The way in which the film and music industries have failed to respond to computational and networked digital media generates a lot of fuss, but should be compared to other areas. Newspapers for instance have begun to make real use of networks in ways that make sense. What this means is that 'piracy', the sharing of files and information should be understood as the background norm, a de facto standard, even if it contradicts the legal norms we are supposedly governed by. Ways of developing projects, even those that require significant amounts of cash to go into production, need to take this into account. To fight against it is perhaps understandable as a ploy, but doomed. Worse, to pretend it isn't happening is just silly.
+
+
+Given this background of developing digital abundance, a number of attempts have been made to formulate a means of using open source production as a model for all economic and production activity. Examples abound in the Germanophone political-theory project Oekenux, which specialises in research on concrete examples for extending FLOSS models into other forms of production.xliv Often such projects rely on the genotype / phenotype split, where the plans, recipes, instructions for a thing are held in common, while individual realisations of those plans are owned in a wider variety of ways. Much of the contemporary enthusiasm for “fabbers”, machines used for making objects via sintering, milling, or other techniques often used in rapid prototyping or mass customisation is driven by the idea of making “Santa Claus” machines that, given the availability of a blueprint, can manufacture almost anything. Food printers with inks including vitamins and other nutrients are also possible, though largely pointless (the stuff really does grow on trees). The UVS quasi-license aims however to avoid getting stuck in the genotype / phenotype distinction - in software the code is the thing, and the matter of compiling it or not is relatively simple. In order to make the parallel work, it is interesting to see what happens if we refuse to acknowledge the split.
+
+
+What we contemporarily understand as property is only what has currently settled out as such. Arguments that property takes on any particular natural form are unhelpful. Its visible artificiality is what makes it useful. A historical account of the genesis of different forms of property, or alternately, the development of the use of the idea of property to interpret and change social relations is beyond the scope of this text. What we encourage is an understanding of property as plastic, as historically contingent, and something to be experimented with or left as redundant. This means that there is no blueprint, provided by FLOSS or anything else, to work to religiously. It is a given that property is theft. But it is also true that different kinds of ownership, access, production and development allow for different kinds of relation to materials - to the methods and techniques by which they may be studied, processed and shaped - and that the social organisations and powers of the imaginary which form around and through such work establish abundant possibilities for different kinds of orders that may be formed.
+
+
+Some sectors of society, such as financial markets and banks are allowed great freedom to experiment with forms of property. When these experiments go wrong, such as with recent sub-prime mortgage schemes in the US and related financial strategies in the UK, society as a whole picks up the pieces. These are both highly abstracted speculative practices based on peoples' needs for housing, Communism, in this case, is a good thing for the rich. We are not interested in sustaining a solidarity that only travels upwards.
+
+
+What we propose here is that the vocabulary of property generated by capitalism, especially in its neoliberal variants is too rigid to allow for invention. In its application it has also proven itself to be incapable of allowing for a sustainable, let alone fully ecological, relationship between the societies it orders and the life systems of the planet. In its application to the context of digital abundance, it has failed on its own terms, let alone those of the generation of a viable and delightful digital culture. FLOSS has shown, in the domain of software, a way in which systems of property may be manipulated in order to set out a more pragmatic, useful and productive mode of operations. Forms of property govern access to, shape the use of, and define the ability to contribute to the sources and sustention of life. As their currently dominant forms fray they can only be held onto by force. Instead, they should be expanded upon. This must be done in a way that not only mitigates against the excesses of capitalism, but which actively subordinates it: carefully, violently, melodically.
+
+
+All UVS builds must open the category of property up to their own speculative reinvention. These are not predetermined. Only a mode of construction that is capable of losing the plot is adequate.
+
+
+
+
+Legible Notice Requirement
+
+
+In order to comply with this quasi-license, the following statement must be legible on the construction: "This build is licensed under the Urban Versioning System v.1.0"
+
+
+
+
+
+
+
+Thanks
+
+
+Kristina Andersen, Jennifer Bajorek, David Cuesta, Omar Khan, Mark Shepard, Mira Vogel, Gregory Wessner
+
+
+
+---
+
+
+
+i Manfredo Tafuri, Architecture and Utopia, design and capitalist development, The MIT Press, Cambridge, 1976
+
+ii United Nations Population Division, An Overview of Urbanization, Internal Migration, Population Distribution and Development in the World, online at, http://www.un.org/esa/population/meetings/EGM_PopDist?/P01_UNPopDiv?.pdf see in particular section II/A/9
+
+iii Free Software Foundation, The Free Software Definition, online at, http://www.fsf.org/licensing/essays/free-sw.html
+
+iv Superflex, Free Beer, project documented online at, http://www.superflex.net/projects/freebeer/
+
+v Documentation of Open Cola is available in a number of places, for example, http://www.colawp.com/colas/400/cola467_recipe.html
+
+vi Ice Cream for Everyone, online at, http://bak.spc.org/ice/
+
+vii Information about the GP2X platform is available online at, http://www.gp2x.com/
+
+viii Information about Arduino is available online at http://arduino.cc
+
+ix Gerrard Winstanley, The Law of Freedom in a Platform, 1652
+
+x Dennis Kaspori, "A communism of ideas: towards an architectural open source practice", Archis #3, 2003; See also, The Open Architecture Network, http://www.openarchitecturenetwork.org/. Kaspori, often in collaboration with artist Jeanne van Heeswijk has developed some very significant moves towards a participatory architectural and planning practice, for instance in the Face Your World project which involved hundreds of people over several months in the redesign of a park in the Slotervaart suburb of Amsterdam http://www.faceyourworld.nl/. An early text which develops the political reading of architecture and open source software in a useful way is Brian Carroll, Open Source Architecture, online at, http://www.nettime.org/Lists-Archives/nettime-l-0006/msg00036.html
+
+xi Maria Lind, ‘The Collaborative Turn’, in, Johanna Billing, Maria Lind and Lars Nilsson eds., Taking the Matter into Common Hands, on contemporary art and collaborative practices, Black Dog, London, 2007, pp15-31; see also various texts in, Marina Vishmidt et al, Media Mutandis, a NODE.London Reader, Metamute, London, 2006
+
+xii see Simon Yuill, 'Concurrent Versioning System', in, Matthew Fuller, ed., Software Studies, a Lexicon, The MIT Press, Cambridge, 2008
+
+xiii Charles Jencks & Nathan Silver, Adhocism, the case for improvisation, Anchor Press, London 1973
+
+xiv An exception is Jingwen Wang, Qing Zhu and Qizhi Mao, "The three-dimensional extension of Space Syntax", in, Proceedings, 6th International Space Syntax Symposium, Istanbul, 2007.
+
+xv Philip Dormer Stanhope, Earl of Chesterfield, Letters to His Son on the Art of Becoming a Man of the World and a Gentleman, (1749) Project Gutenberg e-text, online at, http://infomotions.com/etexts/gutenberg/dirs/3/3/5/3353/3353.htm
+
+xvi Underspacification is a powerful means of enhancing the flexibility of architecture, but also its capacity to interface with developing media environments. See for example Herman Hertzberger's, Diagon Houses in Delft (1971).
+
+xvii see, International Alliance for Interoperability, http://www.ifcwiki.org/index.php/Main_Page
+
+xviii Extended Environments Markup Language, (http://www.eeml.org/) by one of the authors, is one attempt to extend IFC by describing the dynamic behaviour of sensors and actuators.
+
+xix Anthony Dunne, Hertzian Tales, Electronic Products, Aesthetic Experience, and Critical Design, The MIT Press, Cambridge 2006
+
+xx Peter Suber, The Paradox of Self-Amendment, online at, http://www.earlham.edu/~peters/writing/psa/
+
+xxi Peter Suber, online at, Nomic - A Game of Self-Amendment, online at, http://www.earlham.edu/~peters/nomic.htm
+
+xxii Michael Sorkin, Local Code, the constitution of a city at 42o N Latitude, Princeton Architectural Press, 1996
+
+xxiii Maurice Nio & Paul Perry, Amsterdam 2.0, exhibition, Mediamatic, Amsterdam 2005; See documentation video by Nicola Unger, Amsterdam 2.0 Fragments and Readings, 2006
+
+xxiv Rowan Williams, 'Civil and Religious Law in England', published in, The Guardian, February 7th, 2008 http://www.guardian.co.uk/religion/Story/0,,2254270,00.html
+
+xxv P.M., bolo'bolo, Semiotext(e), New York, 1983. See also an interview with P.M. by Oliver Ressler at http://www.republicart.net/disc/aeas/pm01_en.htm/
+
+xxvi see, Jonathan Hughes and Simon Sadler, Non-Plan, essays on freedom and change in modern architecture and urbanism, Architectural Press, Oxford, 2000
+
+xxvii John F.C. Turner, Housing by People, towards autonomy in building environments, Marion Boyars, London, 1976
+
+xxviii Colin Ward, Housing, an anarchist approach, Freedom Press, London, 1976; Dennis Hardy and Colin Ward, Arcadia for All, the legacy of a makeshift landscape, Mansell, London, 1984
+
+xxix Mike Davis, Planet of Slums, Verso, London, 2007
+
+xxx Brian Holmes, One World One Dream, posted January 28, 2008 to http://brianholmes.wordpress.com/
+
+xxxi Bernard Tschumi, Le Fresnoy, architecture in/between, The Monacelli Press, New York, 1999
+
+xxxii Manfredo Tafuri, Architecture and Utopia, op cit
+
+xxxiii Jacques Derrida and Bernard Stiegler, Echographies of Television, trans. Jannifer Bajorek, Polity Press, Cambridge, 2002
+
+xxxiv Studio for Electro-Instrumental Music, http://www.steim.org/
+
+xxxv see for example, Joel Ryan, Remarks on Instrument Design at STEIM, http://www.steim.org/steim/texts.php?id=3
+
+xxxvi This is the argument that is put forth in various ways the in following texts and elsewhere: Yochai Benkler, The Wealth of Networks, Yale University Press, 2007; Daren C. Brabham, "Crowdsourcing as a model for problem Solving: an introduction and cases", Convergence, the international journal of research into new media technologies, Vol 14, no.1 feb 2008, pp.75-90; Jeff Howe, "The Rise of Crowdsourcing", Wired, Vol. 14 No.6, online at, http://www.wired.com/wired/archive/14.06/crowds.html; Geert Lovink & Cristoph Spehr, 'Out-Cooperating The Empire?' in, Geert Lovink and Ned Rossiter eds., My Creativity Reader, a critique of creative industries, Institute of Network Cultures, Amsterdam, 2007, pp.81-96; Cristoph Spehr, The Art of Free Cooperation, Autonomedia, New York, 2007
+
+xxxvii Free Software Foundation, Busting GPLv3 FUD, online at, http://www.fsf.org/blogs/licensing/2007-10-18-gplv3-fud
+
+xxxviii Hacktivismo Enhanced-Source Software License, online at, http://www.hacktivismo.com/about/hessla.php
+
+xxxix Clause 12, Hacktivismo Enhanced-Source Software License, ibid
+
+xl Ayn Rand, The Fountainhead, Penguin Modern Classics, London 2007
+
+xli James Barlow, Robert Jackson and Jim Meikle, Homes to DIY for: The UK’s self-build housing market in the twenty-first century, Joseph Rowntree Foundation, London, 2001
+
+xlii For example in UK, since 1996, self-builders have been allowed to reclaim Value Added Tax spent on materials purchased for house building. See, "VAT refunds for 'do it yourself' builders and converters", HMRC Reference Notice 719, May 2002
+
+xliii See, Philippe Boudon, Lived-in Architecture, Le Courbousier's Pessac revisited, trans. Gerald Onn, Lund Humphries, London, 1972
+
+xliv Oekenux, online at, http://www.oekonux.org/
+
+ 
+
+ 
+                
+ 
