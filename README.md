@@ -1,5 +1,18 @@
 A repo for my upcoming 6-week stint at Recurse Center
 
+
+### Open Source Architecture Experiment
+
+Haque design+research
+
+http://www.haque.co.uk/opensourcearchitecture.php
+
+### Urban Versioning System
+
+http://uvs.propositions.org.uk/uvslongver.html
+
+
+
 ### What am I going to do?
 
 I'm going to work on the subject of open source architecture.
@@ -63,4 +76,30 @@ https://opensource.com/life/16/5/6-open-source-architecture-projects
 http://www.archdaily.com/795959/5-initiatives-that-show-the-rise-of-open-source-architecture
 
 
+
+### Athens Charter (charte d'Athens)
+
+CIAM, 1943, led by Le Corbusier
+
+
+### Collaborative Architects family tree?
+
+Price
+Fuller?
+Smithsons
+
+???
+
+Aravena
+
+
+
+### Open Source Architecture Subjects
+
+* Funding
+* Engagement
+* Standards
+* Design
+* Construction
+* Occupancy
 
