@@ -1,15 +1,20 @@
 # What's popular at recurse center?
 
 import datetime
-from github import Github
-
-from hackers import lst, lst0
-
+import os
 import pickle
 
-# drchirs
+from github import Github, GithubException
 
-g = Github('username', 'password')
+from hackers import lst
+
+
+### Need 
+
+
+g = Github('user', 'password')
+g = Github('chirs', 'password')
+g = Github('drchirs', 'password')
 
 
 def repos_for_user(username):
@@ -17,6 +22,8 @@ def repos_for_user(username):
 
     try:
         repos = [e for e in g.get_user(username).get_repos()]
+    except GithubException.RateLimitExceededException:
+        import pdb; pdb.set_trace()
     except:
         print(username)
         return []
@@ -30,6 +37,8 @@ def repos_for_user(username):
 
         try:
             commits = repo.get_commits().reversed
+        except GithubException.RateLimitExceededException:
+            import pdb; pdb.set_trace()
         except:
             continue
 
@@ -63,14 +72,19 @@ def repos_for_user(username):
 
 
 def save_github(lst):
+    if not os.path.exists('repos.pickle'):
+        f = open('repos.pickle', 'wb')
+        pickle.dump([], f)
+        f.close()
+        
     print('pickling')
-    f = open('repos.pickle', 'wb')
+    f = open('repos.pickle', 'ab')
     pickle.dump(lst, f)
     f.close()
 
 
 def check_empty_user():
-    import os
+
     if not os.path.exists('users.pickle'):
         s = set()
         f = open('users.pickle', 'wb')
