@@ -18,9 +18,6 @@ def load_repos():
     return l
 
 
-
-
-
 def main():
 
     #repos = collect_repos(lst0)
@@ -29,8 +26,8 @@ def main():
 
     repos = load_repos()
 
-    top_repos(repos, 'stars', 10)
-    top_repos(repos, 'forks', 10)
+    top_repos(repos, 'stars', 50)
+    top_repos(repos, 'forks', 50)
     #import pdb; pdb.set_trace()
     #x = 5
 
