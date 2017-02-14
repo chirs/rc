@@ -3,16 +3,12 @@
 
 import random
 
-
 cache = {}
 move_cache = {}
-
 
 def play_round(n, previous=None, player=0):
 
     key = (n, previous, player)
-
-    opponent = (player + 1) % 2    
 
     if key in cache:
         return cache[key]
@@ -21,8 +17,10 @@ def play_round(n, previous=None, player=0):
         move = n
         result = True
     else:
+        opponent = (player + 1) % 2    
+
         possible_moves = [e for e in range(1, 10) if e != previous]
-        possible_results = [play_round(n - move, move, opponent) for move in possible_moves]
+        possible_results = [play_round(n - move, move, opponent) for move in possible_moves] # sort of magic.
         winning_moves = [move for (move, result) in zip(possible_moves, possible_results) if result == False]
 
         if len(winning_moves) == 0:
@@ -68,8 +66,8 @@ def main():
     #print(play_round(10, None))
     #print(play_round(11, None))
 
-    n = 84
-    play_round(n, None)
+    n = 20
+    print(play_round(n, None))
     print(reconstruct(n))
     #import pdb; pdb.set_trace()
 
