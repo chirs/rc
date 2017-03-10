@@ -1,29 +1,30 @@
 ### https://www.janestreet.com/puzzles/current-puzzle/
 
+cache = {} # A cache mapping (n, previous_move, player) -> result
 
-import random
+def play_round(n, previous_moves=[], player=0):
 
-cache = {}
-move_cache = {}
-
-def play_round(n, previous_moves=[None], player=0):
-
-    previous_move = previous_moves[-1]
+    opponent = (player + 1) % 2                    
+    
+    if previous_moves == []:
+        previous_moves = [] # Avoid mutating list
+        previous_move = None
+    else:
+        previous_move = previous_moves[-1]
 
     key = (n, previous_move, player)
 
-    if key in cache:
+    if key in cache:        
         return cache[key]
 
     if n <= 9 and n != previous_move:
-
         move = n
         result = True
     else:
-        opponent = (player + 1) % 2    
-
+        # Minimax?
         possible_moves = [e for e in range(1, 10) if e != previous_move]
-        possible_results = [play_round(n - move, previous_moves[:] + [move], opponent) for move in possible_moves] # sort of magic.
+        # sort of magic...recurse into all possibile futures. what's this called?
+        possible_results = [play_round(n - move, previous_moves[:] + [move], opponent) for move in possible_moves] 
         winning_moves = [move for (move, result) in zip(possible_moves, possible_results) if result == False]
 
         if len(winning_moves) == 0:
@@ -34,11 +35,7 @@ def play_round(n, previous_moves=[None], player=0):
             result = True
 
     cache[key] = result
-
-    #move_cache[key] = move
-    #print(previous_moves)
-    
-    return result
+    return result #, moves?
 
 
 def reconstruct(n):
@@ -76,10 +73,13 @@ def main():
     #print(reconstruct(n))
     #import pdb; pdb.set_trace()
 
-    
-    for e in range(100):
-        print('%s: %s' % (e, play_round(e)))
-
+    s = set()
+    l = []
+    for e in range(10000):
+        # print('%s: %s' % (e, play_round(e)))
+        if not play_round(e):
+            s.add(e % 32)
+    print(s)
         
 if __name__ == "__main__":
     main()
