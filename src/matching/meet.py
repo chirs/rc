@@ -71,9 +71,7 @@ def equalize_lengths(l1, l2):
     if diff < 0:
         m1 = l1 + l2[diff:]
         m2 = l2[:diff]
-
     elif diff > 0:
-
         m1 = l1[:-diff]
         m2 = l2 + l1[-diff:]
     else:
@@ -106,7 +104,7 @@ def simple_match(l1, l2, seen, shift=0):
 
     #random.shuffle(m1)
     ls = lambda l, shift: l[shift:] + l[:shift] # linear shift instead
-    
+
     ts = [tuple(sorted([a,b])) for (a,b) in zip(ls(m1, shift), m2)] # Construct pairs
 
     # Guard against any duplicates
@@ -114,22 +112,17 @@ def simple_match(l1, l2, seen, shift=0):
     new_seen = seen.copy()    
     for t in ts: 
         if t in seen:
-            return None, None
+            return None
 
-        new_seen.add(t)
-
-    return (ts, new_seen)
+    return ts
 
 
 def stable_marriage(l1, l2, seen_pairs):
     """
-    A stable marriage without neutral preference.
+    A stable marriage with neutral preference.
     """
-    # Arranged marriage?
     # This fails extremely fast right now.
-
     # "While the solution is stable, it is not necessarily optimal from all individuals' points of view."
-
     # Bias this towards switching? May solve problem...
 
     def subroutine(m, ws):
@@ -140,17 +133,19 @@ def stable_marriage(l1, l2, seen_pairs):
                 return w
         return None
 
+
     marriages = []
     bachelors = set(l1)
-    damsels = set(l2)
+    unattached = set(l2)
+    # assert(len(unattached) >= len(bachelors))    
     
     for bachelor in bachelors:
-        wife = subroutine(bachelor, damsels)
+        wife = subroutine(bachelor, unattached)
         if wife is None:
             #import pdb; pdb.set_trace()
             raise Exception # Short circuit: Fail to find stable marriage.
 
-        damsels.remove(wife)
+        unattached.remove(wife)
         t = tuple(sorted([bachelor,wife]))
         marriages.append(t)
 
@@ -166,8 +161,6 @@ def swap(pairs, new_entries, seen_pairs):
     # Reminds me of delaunay triangulation?
     # Graph insertion, somehow.
     # What does a properly paired graph look like?
-
-    
     pairs = zip(new_entries[::2], entries[1::2]) # last new entry will be dropped.
 
     
@@ -196,7 +189,6 @@ def unmatcher(people):
     return l
 
 
-
 def main():
     """
     """
@@ -209,7 +201,7 @@ def main():
 
     m1, m2 = equalize_lengths(old_people, new_people)    
 
-    for e in range(5):
+    for index in range(5):
 
         pairs = stable_marriage(m1, m2, seen_pairs)
         seen_pairs.update(pairs)
@@ -217,14 +209,13 @@ def main():
 
         '''
         # match by offsetting indexes. Very simple, efficient, dumb.
-        pairs, new_seen = simple_match(new_people, old_people, seen_pairs, e)
-        if new_seen is None:
+        pairs = simple_match(new_people, old_people, seen_pairs, index)
+        if pairs is None:
             print("")
         else:
+            seen_pairs.update(pairs)
             print(len(seen_pairs))
-            seen_pairs = new_seen
         '''
-
 
         '''
         # play around with removing / rematching elements
