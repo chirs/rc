@@ -1,0 +1,5 @@
+
+pymongo>=2
+Flask>=0.7
+tweepy
+
